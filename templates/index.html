@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title>Colour Pallete</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+
+<!--  header      -->
+        <header id="header">
+            <h1> Colour Palette</h1>
+            <p> Please insert a file path to an image file & hit submit! <br />
+            We will analyze your image & return the top five colors most used in the file</p>
+        </header>
+<!-- Submit button for file path-->
+    <form action="/top_five" method="POST">
+        <div class="input-group mb-3" id="signup-form">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon03">Submit</button>
+          </div>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" name="filepath">
+          </div>
+        </div>
+    </form>
+<!--Footer --------------------------->
+       <footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Nick Corona.</li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{{url_for('static', filename='assets/js/main.js')}}"></script>
+
+	</body>
+</html>
+
+

@@ -1,0 +1,12 @@
+
+Website will convert a users uploaded image into rgb file and then find the top ten most common color palletes in the email.
+
+
+Plan
+1 Structure Website simple.
+    Top bar
+    Section :
+        Upload file
+        list appearbelow automatically
+2 Back end
+
