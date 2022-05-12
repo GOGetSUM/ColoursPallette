@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="620a5479-5db3-4062-aa41-dd2f7139d8cc" name="Changes" comment="" />
+    <list default="true" id="620a5479-5db3-4062-aa41-dd2f7139d8cc" name="Changes" comment="Initial commitment, color pallete working as intended. Might update later to show image file which was updated.&#10;Website is responsive for the most part.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/download/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/top_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/top_list.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651203116588</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commitment, color pallete working as intended. Might update later to show image file which was updated.&#10;Website is responsive for the most part.">
+      <created>1651606147253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651606147253</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commitment, color pallete working as intended. Might update later to show image file which was updated.&#10;Website is responsive for the most part." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commitment, color pallete working as intended. Might update later to show image file which was updated.&#10;Website is responsive for the most part." />
   </component>
 </project>
